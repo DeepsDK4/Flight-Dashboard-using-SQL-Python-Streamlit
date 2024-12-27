@@ -7,7 +7,7 @@ class Db:
         # server connection
         try:
             self.connection = mysql.connector.connect(
-                host="localhost", user="root", password="Nil12@ay", database="indigo"
+                host="localhost", user="username", password="password", database="indigo"
             )
             self.my_cursor = self.connection.cursor()
             print("connection successful")
